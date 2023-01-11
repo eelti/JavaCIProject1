@@ -30,7 +30,7 @@ jobs:
             java-package: jdk
 
       # Build ADempiere with ant
-      - name: Build Adempiere ...
+      - name: Build Project 1 ...
         run: |
           echo $(java -version)
           echo $GITHUB_REF
